@@ -1,9 +1,6 @@
 package main
 
 import(
-  "regex"
-  "string"
-  "github.com/RiAlGueFor/mutant-challenge-v2/internal/mutant"
   "os"
   "github.com/aws/aws-lambda-go/events"
   "github.com/aws/aws-lambda-go/lambda"
@@ -11,6 +8,7 @@ import(
   "github.com/aws/aws-sdk-go/aws/session"
   "github.com/aws/aws-sdk-go/service/dynamodb"
   "github.com/aws/aws-sdk-go/service/dynamodb/dynamodbiface"
+  "github.com/RiAlGueFor/mutant-challenge-v2/internal/mutant"
 )
 
 var (
