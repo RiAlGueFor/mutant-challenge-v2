@@ -1,7 +1,9 @@
 package main
 
 import(
-  "github.com/RiAlGueFor/mutant-challenge-v2/pkg/mutant"
+  "regex"
+  "string"
+  "github.com/RiAlGueFor/mutant-challenge-v2/internal/mutant"
   "os"
   "github.com/aws/aws-lambda-go/events"
   "github.com/aws/aws-lambda-go/lambda"
