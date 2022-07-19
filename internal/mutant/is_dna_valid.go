@@ -1,8 +1,8 @@
-package validators
+package mutant
 
 import (
-"regexp"
-"strings"
+  "regexp"
+  "strings"
 )
 
 func IsDNAValid(dna []string) bool{
